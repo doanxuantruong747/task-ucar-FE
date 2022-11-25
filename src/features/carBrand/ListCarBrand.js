@@ -66,9 +66,16 @@ function ListCarBrand({ filterName, page }) {
                                                 sx={{ fontSize: 14, color: "#8C8C8C", ml: 2, fontWeight: 400, fontFamily: "Poppins" }}
                                             >{brand.description}</Typography>
 
-                                            <Divider orientation="vertical" variant="middle" flexItem
-                                                sx={{ ml: 2 }}
-                                            />
+
+                                            <Box sx={{ ml: 2 }}><div
+                                                style={{
+                                                    height: "16px",
+                                                    width: "1px",
+                                                    backgroundColor: "#E3E3E3",
+
+                                                }}
+                                            /></Box>
+
 
                                             <Typography
                                                 sx={{ ml: 2, color: "#0F5EDD", fontWeight: 500, fontSize: 14, fontFamily: "Poppins" }}
