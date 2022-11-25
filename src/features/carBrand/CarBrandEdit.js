@@ -60,7 +60,7 @@ function CarBrandEdit() {
         setTimeout(() => {
             dispatch(getSingleCarBrand(selectedCarBrand._id))
             handelSave()
-        }, 500);
+        }, 2000);
     };
 
 

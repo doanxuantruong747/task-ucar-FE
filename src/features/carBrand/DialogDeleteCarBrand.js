@@ -7,6 +7,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import { useDispatch } from 'react-redux';
 import { deleteCarBrand } from './carBrandSlice';
 import { useNavigate } from 'react-router-dom';
+import { DialogTitle, Typography } from '@mui/material';
 
 
 
@@ -32,8 +33,15 @@ export default function DialogDeleteCarBrand({ setOpen, open, id }) {
                 onClose={handleClose}
                 aria-labelledby="draggable-dialog-title"
             >
+                <DialogTitle sx={{ mb: 3, bgcolor: '#FAFAFA', height: "60px" }}>
+                    <Typography
+                        sx={{ ml: 1, fontWeight: 600, fontSize: 20, color: "#2F465F" }}
+                    >Brand Delete</Typography>
+                </DialogTitle>
+
+
                 <DialogContent>
-                    <DialogContentText> <span style={{ color: "red" }}>Sorry!</span> you're sure you want to delete ? </DialogContentText>
+                    <DialogContentText> <span style={{ color: "#1F7B4D" }}>Sorry!</span> you're sure you want to delete ? </DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button autoFocus onClick={handleClose}>

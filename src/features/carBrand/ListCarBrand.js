@@ -32,7 +32,7 @@ function ListCarBrand({ filterName, page }) {
                                     <img alt='logo' src={brand.image}
                                         style={{
                                             width: "100px", height: "64px",
-                                            cursor: "pointer", marginLeft: -60
+                                            cursor: "pointer", marginLeft: -50
                                         }} />
 
                                 </TableCell>
