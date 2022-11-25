@@ -137,7 +137,7 @@ function CarBrandEdit() {
                             <div
                                 style={{ color: "#1F7B4D", fontWeight: 500 }}
                             >
-                                {carBrand.status}
+
                             </div>
 
                         </div> */}

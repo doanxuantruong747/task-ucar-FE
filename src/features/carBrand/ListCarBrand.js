@@ -44,7 +44,6 @@ function ListCarBrand({ filterName, page }) {
                                                 height: "64px",
                                                 width: "2px",
                                                 backgroundColor: "#0FC97B",
-
                                             }}
                                         />)
                                         : (<div

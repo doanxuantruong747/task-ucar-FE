@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Box, Stack, Toolbar } from "@mui/material";
+import { Box } from "@mui/material";
 
 import PersistentDrawerLeft from "../components/Drawer/Drawer";
 
